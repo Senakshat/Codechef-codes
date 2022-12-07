@@ -1,0 +1,8 @@
+t=int(input())
+for i in range(t):
+    y=input()
+    n=0
+    if y=="2019" or y=="2017" or y=="2016" or y=="2015" or y=="2010":
+        print("HOSTED")
+    else:
+        print("NOT HOSTED")
